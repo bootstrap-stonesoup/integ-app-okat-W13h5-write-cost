@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-oqpo
     spec:
       containers:
-      - image: quay.io/dheerajodha/test-images@sha256:03cda51c5d7bf9303737ca084032b9167b87a0b0a8321452c14992d28e64d4c1
+      - image: quay.io/redhat-appstudio/sample-image
         name: my-python
         ports:
         - containerPort: 8081
